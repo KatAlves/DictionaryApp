@@ -8,7 +8,7 @@ export default function App() {
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       
 Dictionary     
-    
+    test
       </header>
     </div>
   );

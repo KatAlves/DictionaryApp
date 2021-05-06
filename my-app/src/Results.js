@@ -21,4 +21,3 @@ export default function Results(props) {
     return null;
   }
 }
-

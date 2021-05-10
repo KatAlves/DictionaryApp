@@ -8,7 +8,6 @@ return(
 {props.phonetic.text}
 
     </div>
-
 )
     
 }

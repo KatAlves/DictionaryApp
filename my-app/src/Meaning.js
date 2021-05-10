@@ -7,7 +7,9 @@ export default function Meaning(props) {
       <h3>{props.meaning.partOfSpeech}</h3>
    
         {props.meaning.definitions.map(function (definition, index) {
-          return (
+        if(index < 3) {
+            return (
+
             <div key={index}>
               <p>
               <strong>Definition:</strong>  {definition.definition}
@@ -17,6 +19,10 @@ export default function Meaning(props) {
               <Synonyms synonyms={definition.synonyms}/>
             </div>
           );
+           } else {
+              return null;
+          }
+
         })}
 
     </div>

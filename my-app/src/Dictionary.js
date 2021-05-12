@@ -21,11 +21,13 @@ export default function Dictionary() {
   function handleOnchange(event) {
     setkeyWord(event.target.value);
   }
+  
 
   return (
     <div className="Dictionary">
       <form onSubmit={Search}>
-        <input type="Search" onChange={handleOnchange}></input>
+        <input type="Search" placeholder = "Enter a word..." onChange={handleOnchange}></input>
+      <input type="submit" value="Go!" />
       </form>
       <Results results={results} />
     </div>

@@ -11,6 +11,8 @@ body {
 div.container {
   text-align: center;
   min-width: 500px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-header {

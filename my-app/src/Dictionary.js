@@ -28,9 +28,17 @@ export default function Dictionary(props) {
     axios.get(pexelsApiUrl, headers).then(handlePexelsResponse);
   }
 
+  
+  function handleSubmit(event) {
+    event.preventDefault();
+    Search();
+  }
+
   function handleOnchange(event) {
     setkeyWord(event.target.value);
   }
+
+  
 
   function load() {
     setLoaded(true);
@@ -40,14 +48,15 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <form onSubmit={Search}>
+        <form onSubmit={handleSubmit}>
           <input
+          className="form"
             type="Search"
             placeholder="Enter a word..."
             onChange={handleOnchange}
             defaultValue={props.defaultKeyword}
           ></input>
-          <input type="submit" value="Go!" />
+          <input className="button" type="submit" value="Go!" />
         </form>
         <Results results={results} />
         <Photos photos={photos} />

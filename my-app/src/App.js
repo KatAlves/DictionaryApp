@@ -12,6 +12,19 @@ export default function App() {
           <strong>Dictionary</strong>
         </header>
         <Dictionary defaultKeyword="Wild" />
+        <footer>
+      <div className="row">
+        <a className="footer"
+          href="https://www.linkedin.com/in/c%C3%A1tia-filipa-alves/"
+          target="_blank" rel="noreferrer"
+          >Dictionary by Cátia Alves</a
+        >
+        <a className="footer"
+        href="https://github.com/KatAlves/DictionaryApp" target="_blank" rel="noreferrer"
+          >Open-sourced on GitHub</a
+        >
+      </div>
+    </footer>
       </div>
     </div>
   );

@@ -2,6 +2,10 @@ body {
   background: #f9f8fe54;
 }
 
+h2 {
+  font-size: 37px;
+}
+
 .App-logo {
   position: relative;
   right: 100px;
@@ -12,7 +16,7 @@ div.container {
   text-align: center;
   min-width: 500px;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .App-header strong {
@@ -23,10 +27,26 @@ div.container {
   font-size: 50px;
 }
 
+.Listen {
+  color: #c88885;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+.Listen:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: underline;
+}
+
+span.Text {
+  opacity: 0.5;
+  font-weight: bold;
+}
+
 .main,
 .meaning1,
 .Synonyms {
-  background-color: #f3eceb54 !important;
+  background-color: #f3eceb54;
   padding: 30px;
   border-radius: 6px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 5%);
@@ -37,7 +57,7 @@ div.container {
 .Synonyms li {
   text-decoration: none;
   display: inline-block;
-  padding-right: 15px;
+  padding: 2px;
   line-height: 1;
   color: #b6605c;
 }
@@ -45,4 +65,35 @@ div.container {
 .Photos img {
   border-radius: 4px;
   margin-bottom: 20px;
+}
+input.form {
+  width: 30%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+input.button {
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #b6605c;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 2px;
+}
+input.button:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  color: #c88885;
+  text-decoration: none;
+}
+.footer:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+.Meaning img {
+  width: 20px;
+  margin: 5px;
 }

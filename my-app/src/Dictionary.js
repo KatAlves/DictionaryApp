@@ -7,8 +7,8 @@ export default function Dictionary() {
   let [keyWord, setkeyWord] = useState("");
   let [results, setResults] = useState(null);
   let [photos, setPhotos] = useState(null);
-  let [loaded, setLoaded] =useState();
-  
+
+
   function handleResponse(response) {
     setResults(response.data[0]);
   }

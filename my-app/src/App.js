@@ -17,7 +17,7 @@ export default function App() {
         <a className="footer"
           href="https://www.linkedin.com/in/c%C3%A1tia-filipa-alves/"
           target="_blank" rel="noreferrer"
-          >Dictionary by Cátia Alves Sponsored by Capgemini</a
+          >Dictionary by Cátia Alves</a
         >
         <a className="footer"
         href="https://github.com/KatAlves/DictionaryApp" target="_blank" rel="noreferrer"

@@ -21,7 +21,7 @@ export default function App() {
         >
         <a className="footer"
         href="https://github.com/KatAlves/DictionaryApp" target="_blank" rel="noreferrer"
-          >Open-sourced on GitHub sponsored by Capgemini</a
+          >Open-sourced on GitHub</a
         >
       </div>
     </footer>
